@@ -298,29 +298,18 @@ for i in range(0, 7):
         SapResult[i] = U1[0]
 
 # close Sap2000
-
 ret = mySapObject.ApplicationExit(False)
-
 SapModel = None
-
 mySapObject = None
 
 # fill independent results
-
 IndResult = [0, 0, 0, 0, 0, 0, 0]
-
 IndResult[0] = -0.02639
-
 IndResult[1] = 0.06296
-
 IndResult[2] = 0.06296
-
 IndResult[3] = -0.2963
-
 IndResult[4] = 0.3125
-
 IndResult[5] = 0.11556
-
 IndResult[6] = 0.00651
 
 # fill percent difference
